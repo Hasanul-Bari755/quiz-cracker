@@ -1,20 +1,19 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const OptionShow = ({ option,correctAnswer }) => {
      //console.log(option)
-    const comperetAnswer = (event) => {
+    const compereAnswer = (event) => {
         if (event === correctAnswer) {
-            console.log("correct")
-            console.log(event)
+           return toast.success('Correct Answer')
         } else {
-            console.log("rong")
-            console.log(event)
+            return toast.error('Wrong Answer')
          }
      }
     return (
-        <div className='border-2 border-gray-500 w-[40%] mx-auto mt-4 text-center'>
-            {/* <p className='text-center p-6'>{option }</p> */}
-            <button onClick={(event)=>comperetAnswer(event.target.innerText)} className='p-6'>{option }</button>
+        <div className='border-2 border-gray-500 w-[40%] mx-auto m-4 text-center'>
+             
+            <button onClick={(event)=>compereAnswer(event.target.innerText)} className='p-6'>{option }</button>
             
         </div>
     );

@@ -7,12 +7,12 @@ import Root from "../components/Root";
 export const router = createBrowserRouter([
     {
         path: '/',
+        loader: async ()=> fetch('https://openapi.programming-hero.com/api/quiz'),
         element: <Root></Root>,
         errorElement: <Errorpage></Errorpage>,
         children: [
             {
                 path: '/',
-                loader:async ()=> fetch('https://openapi.programming-hero.com/api/quiz'),
                 element:<Home></Home>
             },
             {
