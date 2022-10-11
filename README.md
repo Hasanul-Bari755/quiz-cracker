@@ -14,3 +14,5 @@ There are some feature in my project.
 ## Dynamic Link
 
 Example: https://openapi.programming-hero.com/api/quiz/id
+
+# Live Link: https://quiz-master-77c159.netlify.app/
