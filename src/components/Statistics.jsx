@@ -7,7 +7,7 @@ const Statistics = () => {
     const quizs = useContext(QuizContext);
     console.log(quizs)
     return (
-        <div className='mt-5 grid lg:grid-cols-2 grid-cols-1'>
+        <div className='mt-11 grid lg:grid-cols-2 grid-cols-1'>
            <div>
         <ResponsiveContainer width="100%" height='100%'>
         <div>
@@ -40,10 +40,10 @@ const Statistics = () => {
             </div>
 
           
-            <div className='mt-11'>
+            <div>
                 <ResponsiveContainer width='100%' height='100%'>
                     <div>
-                    <BarChart width={700} height={250} data={quizs}>
+                    <BarChart width={500} height={300} data={quizs}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="name" />
                     <YAxis />
