@@ -52,13 +52,13 @@ const Home = () => {
                     height="24"
                   />
                 </svg>
-                <span className="relative">The</span>
+                <span className="relative">Practices</span>
               </span>{' '}
-              quick, brown fox jumps over a lazy dog
+              makes a man perfect, So practice more & more....
             </h2>
             <p className="text-base text-gray-700 md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
+                  Every exam is a important for my own justification.
+                  So every person should be attend the exam.
             </p>
           </div>
           

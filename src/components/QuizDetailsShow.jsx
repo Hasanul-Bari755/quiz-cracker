@@ -6,10 +6,10 @@ import swal from 'sweetalert';
 
 const QuizDetailsShow = ({ singleQuestion }) => {
  const { correctAnswer, question, options } = singleQuestion;
-    
+   
     const showAnswer = () => {
        swal({
-    title: correctAnswer,
+    title: `Correct Answer: ${correctAnswer}`
    });
     }
 

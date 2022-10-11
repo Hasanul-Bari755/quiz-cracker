@@ -5,7 +5,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
 
 const Statistics = () => {
     const quizs = useContext(QuizContext);
-    console.log(quizs)
+   
     return (
         <div className='mt-11 grid lg:grid-cols-2 grid-cols-1'>
            <div>

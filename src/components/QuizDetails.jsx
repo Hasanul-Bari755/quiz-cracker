@@ -13,9 +13,16 @@ const QuizDetails = () => {
     return (
         <div className='mt-20'>
             <h2 className='text-center font-bold text-4xl'>Quiz of {name}</h2>
-            {
+            <div>
+            <div>
+                {
                 questions.map(question => <QuizDetailsShow key={question.id} singleQuestion={question}></QuizDetailsShow>)
-            }
+               }
+            </div>
+            <div>
+                <h1>result</h1>
+            </div>
+            </div>
         </div>
     );
 };
