@@ -10,3 +10,7 @@ There are some feature in my project.
 - see the correct answer of beside the question.
 
 ## API LINK: (https://openapi.programming-hero.com/api/quiz)
+
+## Dynamic Link
+
+Example: https://openapi.programming-hero.com/api/quiz/id
