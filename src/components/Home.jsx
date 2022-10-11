@@ -65,7 +65,7 @@ const Home = () => {
         </div>
       </div>
             </div>
-        <div className='grid grid-cols-3 gap-4 w-[90%] mx-auto'>
+        <div className='grid lg:grid-cols-3 grid-cols-1 gap-4 w-[90%] mx-auto'>
           {
             quizs.map(quiz=> <Quiz key={quiz.id} quiz={quiz}></Quiz>)    
           }

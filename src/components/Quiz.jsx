@@ -12,7 +12,7 @@ const Quiz = ({ quiz }) => {
             <div className="card w-full bg-gray-500 shadow-xl">
                 <figure><img className='w-44' src={logo} alt="Shoes" /></figure>
                 <div className="card-body">
-                <h2 className="card-title">{name }</h2>
+                <h2 className="card-title text-white">{name }</h2>
                     
                     <div className="card-actions justify-end">
                     <button onClick={()=>handleQuizBtn(id)} className="btn btn-active btn-secondary">Start Practice</button>
